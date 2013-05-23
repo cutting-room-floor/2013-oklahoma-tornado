@@ -1,4 +1,4 @@
-var map = L.mapbox.map('map', 'herwig.map-fzavh3a8,herwig.ok-aerial-1,herwig.map-n08ruuw2');
+var map = L.mapbox.map('map', 'usatoday.map-yar21vo3');
 
 map.attributionControl.addAttribution("Tornado track data from <a href='http://wdtinc.com/'>Weather Decision Technologies</a>");
 map.attributionControl.addAttribution("<a href='http://www.gocivilairpatrol.com/'>Civil Air Patrol</a> imagery from <a href='http://hdds.usgs.gov/EO/'>USGS HDDS</a>");
