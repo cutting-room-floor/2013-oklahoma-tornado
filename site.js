@@ -1,4 +1,4 @@
-var map = L.mapbox.map('map', 'usatoday.map-yar21vo3');
+var map = L.mapbox.map('map', 'herwig.map-fzavh3a8,herwig.ok-aerial-1,herwig.map-n08ruuw2');
 
 map.attributionControl.addAttribution("Tornado track data from <a href='http://wdtinc.com/'>Weather Decision Technologies</a>");
 map.attributionControl.addAttribution("<a href='http://www.gocivilairpatrol.com/'>Civil Air Patrol</a> imagery from <a href='http://hdds.usgs.gov/EO/'>USGS HDDS</a>");
@@ -101,7 +101,7 @@ var tornado1990 = L.geoJson(tornado1990, {
 
 addLayer(tornado2013,'May 20, 2013 tornado path', 'on');
 addLayer(tornado2003,'May 8, 2003 tornado path');
-addLayer(tornado1990,'May 3, 1990 tornado path');
+addLayer(tornado1990,'May 3, 1999 tornado path');
 
 function addLayer(layer, name, toggle) {
     // layer.addTo(map);
