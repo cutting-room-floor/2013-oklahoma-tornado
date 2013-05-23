@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.0/mapbox.js'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+  <title>Images from the May, 2013 Oklahoma Tornado</title>
+  <meta name="twitter:site" content="@MapBox">
+  <meta property="og:site_name" content="MapBox">
+  <meta name="twitter:url" content="http://mapbox.com/labs/oklahoma/#12/35.3062/-97.3475">
+  <meta property="og:url" content="http://www.mapbox.com/labs/oklahoma/#12/35.3062/-97.3475">
+  <meta name="twitter:title" content="Moore, Oklahoma Tornado CAP Imagery Browser">
+  <meta property="og:title" content="Moore, Oklahoma Tornado CAP Imagery Browser">
+  <meta name="twitter:description" content="This map visualizes the first flyover images captured by the Civil Air Patrol from 5/20/2013-5/21/2013 of the areas affected by the Moore, Oklahoma tornado earlier this week. The imagery was provided by USGS Hazards Data Distribution System.">
+  <meta property="og:description" content="This map visualizes the first flyover images captured by the Civil Air Patrol from 5/20/2013-5/21/2013 of the areas affected by the Moore, Oklahoma tornado earlier this week. The imagery was provided by USGS Hazards Data Distribution System.">
+  <meta name="twitter:image" content="http://farm8.staticflickr.com/7315/8802350618_6161267005_c.jpg">
+  <meta property="og:image" content="http://farm8.staticflickr.com/7315/8802350618_6161267005_c.jpg"> 
+  <meta name="twitter:card" content="summary_large_image">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.0/mapbox.css' rel='stylesheet' />
+  <link href='style.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
+  <![endif]-->
+</head>
+<body>
+<div id="logo">
+  <a target="_blank" href="http://mapbox.com">
+    <img src="images/mapbox-logo.png" alt="Map by MapBox">
+  </a>
+</div>
+<div id='map'></div>
+<ul id='map-ui'></ul>
+<style>
+.popup {
+    text-align: center;
+}
+.popup img {
+    width: 100%;
+}
+</style>
+
+<script type='text/javascript' src='hash.js'></script>
+<script type='text/javascript' src='markercluster.js'></script>
+<script type='text/javascript' src='points.js'></script>
+<script type='text/javascript' src='tracks.js'></script>
+<script type='text/javascript' src='site.js'></script>
+</body>
+</html>
